@@ -36,6 +36,8 @@ public void initialDemo()
 	driver.manage().window().maximize();
 	driver.get("https://rahulshettyacademy.com/");
 	System.out.println(driver.getTitle());
+	System.out.println("TEST");
+
 	extent.flush();
 }
 
